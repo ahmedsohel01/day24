@@ -1,0 +1,238 @@
+/* Default style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.section-padding {
+  padding: 50px 0;
+}
+p {
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+/* Default style */
+/* Header Style */
+.header-section {
+  background-color: #7ed6df;
+  padding: 15px 0;
+}
+.logo-area {
+  width: 25%;
+  float: left;
+}
+.logo-area img {
+  max-width: 100%;
+}
+.menu-area {
+  width: 75%;
+  float: right;
+}
+.menu-area ul {
+  text-align: right;
+}
+.menu-area ul li {
+  display: inline-block;
+  list-style: none;
+  border-right: 1px solid #fff;
+}
+.menu-area ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #130f40;
+  display: block;
+  padding: 0 25px;
+  line-height: 60px;
+  transition: all 0.4s;
+}
+.menu-area ul li a:hover {
+  color: #4834d4;
+}
+/* Header Style */
+/* Banner Style */
+.banner-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.banner-text-area {
+  padding: 200px 0;
+}
+.banner-text-area h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #ecf0f1;
+}
+.banner-text-area h1 span {
+  color: #bdc3c7;
+}
+.banner-text-area h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #0981fa;
+  margin-top: 5px;
+}
+/* Banner Style */
+/* About style */
+.about-section {
+  background-color: #bdc3c7;
+}
+.about-content img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.about-content p {
+  font-size: 20px;
+}
+.about-social-icon ul {
+  margin-top: 20px;
+}
+.about-social-icon ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 15px;
+}
+.about-social-icon ul li a {
+  font-size: 25px;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  background-color: #0984e3;
+  color: #fff;
+  line-height: 60px;
+  border-radius: 20px 0 20px 0;
+  transition: all 0.4s;
+}
+.about-social-icon ul li a:hover {
+  background-color: #fff;
+  color: #0984e3;
+}
+/* About style */
+/* Service Style */
+.service-section {
+  background-color: #ecf0f1;
+}
+.section-title {
+  margin-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+.section-title p {
+  font-size: 18px;
+}
+.single-service {
+  width: 32.33%;
+  float: left;
+  margin-right: 1%;
+  padding: 20px 15px;
+  border: 2px solid #ddd;
+  transition: all 0.4s;
+}
+.single-service:last-child {
+  margin-right: 0;
+}
+.single-service i {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ddd;
+  line-height: 50px;
+  font-size: 30px;
+  color: #0981fa;
+  border-radius: 20px 0 20px 0;
+}
+.single-service h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+}
+.single-service p {
+  font-size: 18px;
+}
+.single-service:hover i {
+  background-color: #0981fa;
+  color: #fff;
+  border: none;
+}
+.single-service:hover {
+  transform: scale(1.05);
+}
+.section-content:hover .single-service:not(:hover) {
+  transform: scale(0.95);
+}
+/* Service Style */
+/* Blog style */
+article {
+  margin-bottom: 30px;
+}
+.article-text-area {
+  width: 65%;
+  float: left;
+}
+.article-img-area {
+  width: 30%;
+  float: right;
+}
+.article-img-area img {
+  max-width: 100%;
+}
+footer {
+  padding: 15px 0;
+  background-color: #202020;
+}
+.footer-left {
+  width: 50%;
+  float: left;
+}
+.footer-left small {
+  color: #fff;
+  font-size: 14px;
+  word-spacing: 2px;
+}
+.footer-left a {
+  color: #fff;
+}
+.footer-right {
+  width: 50%;
+  float: right;
+}
+.footer-menu ul {
+  text-align: right;
+}
+.footer-menu ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer-menu ul li:last-child {
+  padding-right: 0;
+}
+.footer-menu ul li a {
+  color: #fff;
+}
+/* Blog style */
